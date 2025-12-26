@@ -24,9 +24,13 @@ NOTE: If you are having issues with permissions. And you get error:
 */
 
 -- NOTE: This has been updated from the video to fix issues with encoding
+copy company_dim
+FROM '/Users/amuda/SQL_Project_Data_Job_Analysis/all_folders/csv_files/company_dim.csv'
+DELIMITER ',' CSV HEADER;
+
 
 COPY company_dim
-FROM 'C:\Users\amuda.sivaraj\Desktop\SQL_Project_Data_Job_Analysis\csv_files\company_dim.csv'
+FROM '/Users/amuda/SQL_Project_Data_Job_Analysis/csv_files/company_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_dim

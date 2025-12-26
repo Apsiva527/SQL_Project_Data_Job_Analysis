@@ -1,3 +1,10 @@
+/*About the SQL_Project
+Goal 
+1.You are an aspiring data nerd looking to analysze the top paying roles and skills
+2. You will create sql queries to explore this large dataset specific to you
+3. For those job searching or looking  for a promotopn, you cannot only use this project to show case experience BUT also to extract what roles/skilss you should target
+*/
+
 /*
 
 Question: what are the top-paying data analyst jobs?
